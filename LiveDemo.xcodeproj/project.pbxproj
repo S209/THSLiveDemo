@@ -14,6 +14,7 @@
 		0588802A1ED5D90500672558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058880281ED5D90500672558 /* LaunchScreen.storyboard */; };
 		058880351ED5D90500672558 /* LiveDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058880341ED5D90500672558 /* LiveDemoTests.swift */; };
 		058880401ED5D90500672558 /* LiveDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0588803F1ED5D90500672558 /* LiveDemoUITests.swift */; };
+		058880521ED5DDDE00672558 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058880511ED5DDDE00672558 /* RootTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0588803B1ED5D90500672558 /* LiveDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0588803F1ED5D90500672558 /* LiveDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDemoUITests.swift; sourceTree = "<group>"; };
 		058880411ED5D90500672558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058880511ED5DDDE00672558 /* RootTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		0588801E1ED5D90500672558 /* LiveDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0588804D1ED5DCA100672558 /* Classes */,
 				0588801F1ED5D90500672558 /* AppDelegate.swift */,
 				058880211ED5D90500672558 /* ViewController.swift */,
 				058880231ED5D90500672558 /* Main.storyboard */,
@@ -123,6 +126,30 @@
 				058880411ED5D90500672558 /* Info.plist */,
 			);
 			path = LiveDemoUITests;
+			sourceTree = "<group>";
+		};
+		0588804D1ED5DCA100672558 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				058880501ED5DD4600672558 /* Main */,
+				0588804E1ED5DCD300672558 /* Base */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0588804E1ED5DCD300672558 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				058880511ED5DDDE00672558 /* RootTabBarController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		058880501ED5DD4600672558 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				058880221ED5D90500672558 /* ViewController.swift in Sources */,
+				058880521ED5DDDE00672558 /* RootTabBarController.swift in Sources */,
 				058880201ED5D90500672558 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
