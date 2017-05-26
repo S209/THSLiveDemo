@@ -20,6 +20,8 @@
 		0588805D1ED5DFCB00672558 /* THSRankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0588805C1ED5DFCB00672558 /* THSRankViewController.swift */; };
 		0588805F1ED5DFD700672558 /* THSDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0588805E1ED5DFD700672558 /* THSDiscoverViewController.swift */; };
 		058880611ED5DFF000672558 /* THSProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058880601ED5DFF000672558 /* THSProfileViewController.swift */; };
+		058880661ED72B1600672558 /* THSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058880651ED72B1600672558 /* THSBaseViewController.swift */; };
+		058880681ED72F2B00672558 /* THSCustUINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058880671ED72F2B00672558 /* THSCustUINavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		0588805C1ED5DFCB00672558 /* THSRankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THSRankViewController.swift; sourceTree = "<group>"; };
 		0588805E1ED5DFD700672558 /* THSDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THSDiscoverViewController.swift; sourceTree = "<group>"; };
 		058880601ED5DFF000672558 /* THSProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THSProfileViewController.swift; sourceTree = "<group>"; };
+		058880651ED72B1600672558 /* THSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THSBaseViewController.swift; sourceTree = "<group>"; };
+		058880671ED72F2B00672558 /* THSCustUINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THSCustUINavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,8 @@
 			isa = PBXGroup;
 			children = (
 				058880511ED5DDDE00672558 /* RootTabBarController.swift */,
+				058880651ED72B1600672558 /* THSBaseViewController.swift */,
+				058880671ED72F2B00672558 /* THSCustUINavigationController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -336,8 +342,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				058880681ED72F2B00672558 /* THSCustUINavigationController.swift in Sources */,
 				058880611ED5DFF000672558 /* THSProfileViewController.swift in Sources */,
 				0588805B1ED5DFB800672558 /* THSMainViewController.swift in Sources */,
+				058880661ED72B1600672558 /* THSBaseViewController.swift in Sources */,
 				058880221ED5D90500672558 /* ViewController.swift in Sources */,
 				058880591ED5DFA300672558 /* THSHomeViewController.swift in Sources */,
 				058880521ED5DDDE00672558 /* RootTabBarController.swift in Sources */,
@@ -594,6 +602,7 @@
 				058880461ED5D90500672558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		058880471ED5D90500672558 /* Build configuration list for PBXNativeTarget "LiveDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +611,7 @@
 				058880491ED5D90500672558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0588804A1ED5D90500672558 /* Build configuration list for PBXNativeTarget "LiveDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +620,7 @@
 				0588804C1ED5D90500672558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

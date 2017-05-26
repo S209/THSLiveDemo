@@ -8,11 +8,12 @@
 
 import UIKit
 
-class THSDiscoverViewController: UIViewController {
+class THSDiscoverViewController: THSBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        view.backgroundColor = UIColor.yellow
+        
         // Do any additional setup after loading the view.
     }
 

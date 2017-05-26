@@ -8,11 +8,12 @@
 
 import UIKit
 
-class THSMainViewController: UIViewController {
+class THSMainViewController: THSBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        view.backgroundColor = UIColor.blue
+        
         // Do any additional setup after loading the view.
     }
 

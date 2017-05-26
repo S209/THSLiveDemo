@@ -8,11 +8,12 @@
 
 import UIKit
 
-class THSRankViewController: UIViewController {
+class THSRankViewController: THSBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        view.backgroundColor = UIColor.black
+        
         // Do any additional setup after loading the view.
     }
 

@@ -1,20 +1,22 @@
 //
-//  THSHomeViewController.swift
+//  THSBaseViewController.swift
 //  LiveDemo
 //
-//  Created by tuhaisheng on 2017/5/24.
+//  Created by tuhaisheng on 2017/5/25.
 //  Copyright © 2017年 tuhaisheng. All rights reserved.
 //
 
 import UIKit
 
-class THSHomeViewController: THSBaseViewController {
+class THSBaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.gray
-        
+
         // Do any additional setup after loading the view.
+    }
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
 
     override func didReceiveMemoryWarning() {
