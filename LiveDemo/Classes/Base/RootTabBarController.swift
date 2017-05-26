@@ -47,6 +47,7 @@ extension RootTabBarController{
         let item4 : UITabBarItem = UITabBarItem (title: "第四页面", image: UIImage(named: "tabbar_other"), selectedImage: UIImage(named: "tabbar_other_selected"))
        profile.tabBarItem = item4
        
+        
         let custItemFour = THSCustUINavigationController(rootViewController: profile)
         custItemFour.title = "第四页面"
         
