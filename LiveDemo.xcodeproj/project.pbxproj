@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		051BADB81ED888400046FAF3 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051BADB71ED888400046FAF3 /* UIColor-Extension.swift */; };
 		058880201ED5D90500672558 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0588801F1ED5D90500672558 /* AppDelegate.swift */; };
 		058880221ED5D90500672558 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058880211ED5D90500672558 /* ViewController.swift */; };
 		058880251ED5D90500672558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058880231ED5D90500672558 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		051BADB71ED888400046FAF3 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 		0588801C1ED5D90500672558 /* LiveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0588801F1ED5D90500672558 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		058880211ED5D90500672558 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 				058880511ED5DDDE00672558 /* RootTabBarController.swift */,
 				058880651ED72B1600672558 /* THSBaseViewController.swift */,
 				058880671ED72F2B00672558 /* THSCustUINavigationController.swift */,
+				051BADB71ED888400046FAF3 /* UIColor-Extension.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 				0588805D1ED5DFCB00672558 /* THSRankViewController.swift in Sources */,
 				058880201ED5D90500672558 /* AppDelegate.swift in Sources */,
 				0588805F1ED5DFD700672558 /* THSDiscoverViewController.swift in Sources */,
+				051BADB81ED888400046FAF3 /* UIColor-Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
