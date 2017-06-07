@@ -26,31 +26,22 @@ class RootTabBarController: UITabBarController {
 
 extension RootTabBarController{
     fileprivate func createSubViewControllers(){
-        let item1 : UITabBarItem = UITabBarItem (title: "第一页面", image: UIImage(named: "tabbar_home"), selectedImage: UIImage(named: "tabbar_home_selected"))
+        let item1 : UITabBarItem = UITabBarItem (title: "直播", image: UIImage(named: "live-n"), selectedImage: UIImage(named: "live-p"))
         living.tabBarItem = item1
-        
         let custItemOne = THSCustUINavigationController(rootViewController: living)
         
-        let item2 : UITabBarItem = UITabBarItem (title: "第二页面", image: UIImage(named: "tabbar_sort"), selectedImage: UIImage(named: "tabbar_sort_selected"))
+        let item2 : UITabBarItem = UITabBarItem (title: "排行", image: UIImage(named: "ranking-n"), selectedImage: UIImage(named: "ranking-p"))
         rangkVC.tabBarItem = item2
-        
         let custItemTwo = THSCustUINavigationController(rootViewController: rangkVC)
         
-        
-        let item3 : UITabBarItem = UITabBarItem (title: "第三页面", image: UIImage(named: "tabbar_other"), selectedImage: UIImage(named: "tabbar_other_selected"))
+        let item3 : UITabBarItem = UITabBarItem (title: "发现", image: UIImage(named: "found-n"), selectedImage: UIImage(named: "found-p"))
         findVC.tabBarItem = item3
-        
         let custItemThree = THSCustUINavigationController(rootViewController: findVC)
         
-        
-        let item4 : UITabBarItem = UITabBarItem (title: "第四页面", image: UIImage(named: "tabbar_other"), selectedImage: UIImage(named: "tabbar_other_selected"))
-       profile.tabBarItem = item4
-       
-        
+        let item4 : UITabBarItem = UITabBarItem (title: "我的", image: UIImage(named: "mine-n"), selectedImage: UIImage(named: "mine-p"))
+        profile.tabBarItem = item4
         let custItemFour = THSCustUINavigationController(rootViewController: profile)
-        custItemFour.title = "第四页面"
-        
-        
+    
         let tabArray = [custItemOne,custItemTwo,custItemThree,custItemFour]
         self.viewControllers = tabArray
     }
