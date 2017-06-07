@@ -8,7 +8,7 @@
 
 import UIKit
 
-class THSProfileViewController: THSBaseViewController {
+class THSLiving: THSBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +34,7 @@ class THSProfileViewController: THSBaseViewController {
 
 }
 
-extension THSBaseViewController{
+extension THSLiving{
     fileprivate func setUpUI(){
         setUpNavigationBar()
     }
@@ -60,9 +60,6 @@ extension THSBaseViewController{
         searchFiled?.textColor = UIColor.white
     }
     
-//    func followItemClick() {
-//        
-//    }
 }
 
 // MARK:- 事件监听函数

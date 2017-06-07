@@ -8,7 +8,7 @@
 
 import UIKit
 
-class THSRankViewController: THSBaseViewController {
+class THSRankingController: THSBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

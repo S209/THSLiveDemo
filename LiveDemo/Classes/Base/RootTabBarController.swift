@@ -9,11 +9,10 @@
 import UIKit
 
 class RootTabBarController: UITabBarController {
-    let firstVC  = THSHomeViewController ()
-    let secondVC = THSMainViewController ()
-    let otherVC = THSRankViewController ()
-    let profile = THSProfileViewController ()
-    let discover = THSDiscoverViewController ()
+    let living = THSLiving ()
+    let rangkVC = THSRankingController ()
+    let findVC = THSFindController ()
+    let profile = THSMeController ()
     override func viewDidLoad() {
         super.viewDidLoad()
        createSubViewControllers()
@@ -28,20 +27,20 @@ class RootTabBarController: UITabBarController {
 extension RootTabBarController{
     fileprivate func createSubViewControllers(){
         let item1 : UITabBarItem = UITabBarItem (title: "第一页面", image: UIImage(named: "tabbar_home"), selectedImage: UIImage(named: "tabbar_home_selected"))
-        firstVC.tabBarItem = item1
+        living.tabBarItem = item1
         
-        let custItemOne = THSCustUINavigationController(rootViewController: firstVC)
+        let custItemOne = THSCustUINavigationController(rootViewController: living)
         
         let item2 : UITabBarItem = UITabBarItem (title: "第二页面", image: UIImage(named: "tabbar_sort"), selectedImage: UIImage(named: "tabbar_sort_selected"))
-       secondVC.tabBarItem = item2
+        rangkVC.tabBarItem = item2
         
-        let custItemTwo = THSCustUINavigationController(rootViewController: secondVC)
+        let custItemTwo = THSCustUINavigationController(rootViewController: rangkVC)
         
         
         let item3 : UITabBarItem = UITabBarItem (title: "第三页面", image: UIImage(named: "tabbar_other"), selectedImage: UIImage(named: "tabbar_other_selected"))
-        otherVC.tabBarItem = item3
+        findVC.tabBarItem = item3
         
-        let custItemThree = THSCustUINavigationController(rootViewController: otherVC)
+        let custItemThree = THSCustUINavigationController(rootViewController: findVC)
         
         
         let item4 : UITabBarItem = UITabBarItem (title: "第四页面", image: UIImage(named: "tabbar_other"), selectedImage: UIImage(named: "tabbar_other_selected"))
@@ -51,12 +50,8 @@ extension RootTabBarController{
         let custItemFour = THSCustUINavigationController(rootViewController: profile)
         custItemFour.title = "第四页面"
         
-        let item5 : UITabBarItem = UITabBarItem (title: "第五页面", image: UIImage(named: "tabbar_other"), selectedImage: UIImage(named: "tabbar_other_selected"))
-        discover.tabBarItem = item5
-        let custItemFive = THSCustUINavigationController(rootViewController: discover)
-        custItemFive.title = "第五页面"
         
-        let tabArray = [custItemOne,custItemTwo,custItemThree,custItemFour,discover]
+        let tabArray = [custItemOne,custItemTwo,custItemThree,custItemFour]
         self.viewControllers = tabArray
     }
 }

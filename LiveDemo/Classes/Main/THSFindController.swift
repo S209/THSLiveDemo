@@ -1,5 +1,5 @@
 //
-//  THSDiscoverViewController.swift
+//  THSMainViewController.swift
 //  LiveDemo
 //
 //  Created by tuhaisheng on 2017/5/24.
@@ -8,11 +8,11 @@
 
 import UIKit
 
-class THSDiscoverViewController: THSBaseViewController {
+class THSFindController: THSBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.yellow
+        view.backgroundColor = UIColor.blue
         
         // Do any additional setup after loading the view.
     }

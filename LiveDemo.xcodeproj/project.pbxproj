@@ -16,10 +16,9 @@
 		058880351ED5D90500672558 /* LiveDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058880341ED5D90500672558 /* LiveDemoTests.swift */; };
 		058880401ED5D90500672558 /* LiveDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0588803F1ED5D90500672558 /* LiveDemoUITests.swift */; };
 		058880521ED5DDDE00672558 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058880511ED5DDDE00672558 /* RootTabBarController.swift */; };
-		058880591ED5DFA300672558 /* THSHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058880581ED5DFA300672558 /* THSHomeViewController.swift */; };
-		0588805B1ED5DFB800672558 /* THSMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0588805A1ED5DFB800672558 /* THSMainViewController.swift */; };
+		0588805B1ED5DFB800672558 /* THSFindController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0588805A1ED5DFB800672558 /* THSFindController.swift */; };
 		0588805D1ED5DFCB00672558 /* THSRankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0588805C1ED5DFCB00672558 /* THSRankViewController.swift */; };
-		0588805F1ED5DFD700672558 /* THSDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0588805E1ED5DFD700672558 /* THSDiscoverViewController.swift */; };
+		0588805F1ED5DFD700672558 /* THSMeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0588805E1ED5DFD700672558 /* THSMeController.swift */; };
 		058880611ED5DFF000672558 /* THSProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058880601ED5DFF000672558 /* THSProfileViewController.swift */; };
 		058880661ED72B1600672558 /* THSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058880651ED72B1600672558 /* THSBaseViewController.swift */; };
 		058880681ED72F2B00672558 /* THSCustUINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058880671ED72F2B00672558 /* THSCustUINavigationController.swift */; };
@@ -58,10 +57,9 @@
 		0588803F1ED5D90500672558 /* LiveDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDemoUITests.swift; sourceTree = "<group>"; };
 		058880411ED5D90500672558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		058880511ED5DDDE00672558 /* RootTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
-		058880581ED5DFA300672558 /* THSHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THSHomeViewController.swift; sourceTree = "<group>"; };
-		0588805A1ED5DFB800672558 /* THSMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THSMainViewController.swift; sourceTree = "<group>"; };
+		0588805A1ED5DFB800672558 /* THSFindController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THSFindController.swift; sourceTree = "<group>"; };
 		0588805C1ED5DFCB00672558 /* THSRankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THSRankViewController.swift; sourceTree = "<group>"; };
-		0588805E1ED5DFD700672558 /* THSDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THSDiscoverViewController.swift; sourceTree = "<group>"; };
+		0588805E1ED5DFD700672558 /* THSMeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THSMeController.swift; sourceTree = "<group>"; };
 		058880601ED5DFF000672558 /* THSProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THSProfileViewController.swift; sourceTree = "<group>"; };
 		058880651ED72B1600672558 /* THSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THSBaseViewController.swift; sourceTree = "<group>"; };
 		058880671ED72F2B00672558 /* THSCustUINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THSCustUINavigationController.swift; sourceTree = "<group>"; };
@@ -171,7 +169,7 @@
 		058880501ED5DD4600672558 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				0588805A1ED5DFB800672558 /* THSMainViewController.swift */,
+				0588805A1ED5DFB800672558 /* THSFindController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -179,7 +177,6 @@
 		058880541ED5DF2100672558 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				058880581ED5DFA300672558 /* THSHomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -195,7 +192,7 @@
 		058880561ED5DF3000672558 /* Discover */ = {
 			isa = PBXGroup;
 			children = (
-				0588805E1ED5DFD700672558 /* THSDiscoverViewController.swift */,
+				0588805E1ED5DFD700672558 /* THSMeController.swift */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -347,14 +344,13 @@
 			files = (
 				058880681ED72F2B00672558 /* THSCustUINavigationController.swift in Sources */,
 				058880611ED5DFF000672558 /* THSProfileViewController.swift in Sources */,
-				0588805B1ED5DFB800672558 /* THSMainViewController.swift in Sources */,
+				0588805B1ED5DFB800672558 /* THSFindController.swift in Sources */,
 				058880661ED72B1600672558 /* THSBaseViewController.swift in Sources */,
 				058880221ED5D90500672558 /* ViewController.swift in Sources */,
-				058880591ED5DFA300672558 /* THSHomeViewController.swift in Sources */,
 				058880521ED5DDDE00672558 /* RootTabBarController.swift in Sources */,
 				0588805D1ED5DFCB00672558 /* THSRankViewController.swift in Sources */,
 				058880201ED5D90500672558 /* AppDelegate.swift in Sources */,
-				0588805F1ED5DFD700672558 /* THSDiscoverViewController.swift in Sources */,
+				0588805F1ED5DFD700672558 /* THSMeController.swift in Sources */,
 				051BADB81ED888400046FAF3 /* UIColor-Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
