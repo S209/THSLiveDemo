@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		051BADB81ED888400046FAF3 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051BADB71ED888400046FAF3 /* UIColor-Extension.swift */; };
 		058880201ED5D90500672558 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0588801F1ED5D90500672558 /* AppDelegate.swift */; };
 		058880221ED5D90500672558 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058880211ED5D90500672558 /* ViewController.swift */; };
 		058880251ED5D90500672558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058880231ED5D90500672558 /* Main.storyboard */; };
@@ -22,6 +21,11 @@
 		058880611ED5DFF000672558 /* THSProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058880601ED5DFF000672558 /* THSProfileViewController.swift */; };
 		058880661ED72B1600672558 /* THSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058880651ED72B1600672558 /* THSBaseViewController.swift */; };
 		058880681ED72F2B00672558 /* THSCustUINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058880671ED72F2B00672558 /* THSCustUINavigationController.swift */; };
+		05A258461EF031910014EEC1 /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A258441EF031910014EEC1 /* NSDate-Extension.swift */; };
+		05A258471EF031910014EEC1 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A258451EF031910014EEC1 /* UIColor-Extension.swift */; };
+		05A2584C1EF032440014EEC1 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A2584B1EF032440014EEC1 /* Const.swift */; };
+		05A2584F1EF032A50014EEC1 /* THSPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A2584E1EF032A50014EEC1 /* THSPageView.swift */; };
+		05A258511EF033280014EEC1 /* THSTitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A258501EF033280014EEC1 /* THSTitleStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +46,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		051BADB71ED888400046FAF3 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 		0588801C1ED5D90500672558 /* LiveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0588801F1ED5D90500672558 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		058880211ED5D90500672558 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +66,11 @@
 		058880601ED5DFF000672558 /* THSProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THSProfileViewController.swift; sourceTree = "<group>"; };
 		058880651ED72B1600672558 /* THSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THSBaseViewController.swift; sourceTree = "<group>"; };
 		058880671ED72F2B00672558 /* THSCustUINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THSCustUINavigationController.swift; sourceTree = "<group>"; };
+		05A258441EF031910014EEC1 /* NSDate-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate-Extension.swift"; sourceTree = "<group>"; };
+		05A258451EF031910014EEC1 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		05A2584B1EF032440014EEC1 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		05A2584E1EF032A50014EEC1 /* THSPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THSPageView.swift; sourceTree = "<group>"; };
+		05A258501EF033280014EEC1 /* THSTitleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THSTitleStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +121,7 @@
 		0588801E1ED5D90500672558 /* LiveDemo */ = {
 			isa = PBXGroup;
 			children = (
+				05A2583E1EF02FE40014EEC1 /* Main */,
 				0588804D1ED5DCA100672558 /* Classes */,
 				0588801F1ED5D90500672558 /* AppDelegate.swift */,
 				058880211ED5D90500672558 /* ViewController.swift */,
@@ -161,7 +170,6 @@
 				058880511ED5DDDE00672558 /* RootTabBarController.swift */,
 				058880651ED72B1600672558 /* THSBaseViewController.swift */,
 				058880671ED72F2B00672558 /* THSCustUINavigationController.swift */,
-				051BADB71ED888400046FAF3 /* UIColor-Extension.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -205,6 +213,43 @@
 				058880601ED5DFF000672558 /* THSProfileViewController.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		05A2583E1EF02FE40014EEC1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				05A2584D1EF032690014EEC1 /* THSPageView */,
+				05A258481EF031A10014EEC1 /* Common */,
+				05A2583F1EF0300D0014EEC1 /* Extension */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		05A2583F1EF0300D0014EEC1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				05A258441EF031910014EEC1 /* NSDate-Extension.swift */,
+				05A258451EF031910014EEC1 /* UIColor-Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		05A258481EF031A10014EEC1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				05A2584B1EF032440014EEC1 /* Const.swift */,
+			);
+			name = Common;
+			path = Const;
+			sourceTree = "<group>";
+		};
+		05A2584D1EF032690014EEC1 /* THSPageView */ = {
+			isa = PBXGroup;
+			children = (
+				05A2584E1EF032A50014EEC1 /* THSPageView.swift */,
+				05A258501EF033280014EEC1 /* THSTitleStyle.swift */,
+			);
+			path = THSPageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,16 +389,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05A258461EF031910014EEC1 /* NSDate-Extension.swift in Sources */,
+				05A2584F1EF032A50014EEC1 /* THSPageView.swift in Sources */,
+				05A258511EF033280014EEC1 /* THSTitleStyle.swift in Sources */,
 				058880681ED72F2B00672558 /* THSCustUINavigationController.swift in Sources */,
 				058880611ED5DFF000672558 /* THSProfileViewController.swift in Sources */,
 				0588805B1ED5DFB800672558 /* THSFindController.swift in Sources */,
 				058880661ED72B1600672558 /* THSBaseViewController.swift in Sources */,
+				05A2584C1EF032440014EEC1 /* Const.swift in Sources */,
 				058880221ED5D90500672558 /* ViewController.swift in Sources */,
 				058880521ED5DDDE00672558 /* RootTabBarController.swift in Sources */,
 				0588805D1ED5DFCB00672558 /* THSRankViewController.swift in Sources */,
 				058880201ED5D90500672558 /* AppDelegate.swift in Sources */,
 				0588805F1ED5DFD700672558 /* THSMeController.swift in Sources */,
-				051BADB81ED888400046FAF3 /* UIColor-Extension.swift in Sources */,
+				05A258471EF031910014EEC1 /* UIColor-Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
